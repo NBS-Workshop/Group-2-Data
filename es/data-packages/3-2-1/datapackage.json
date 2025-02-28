@@ -12,8 +12,58 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "Serie",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of births attended by skilled health personnel",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Sector"
+          },
+          {
+            "name": "Zone",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "North Central",
+                "North East",
+                "North West",
+                "South East",
+                "South South",
+                "South West",
+                ""
+              ]
+            },
+            "title": "Zone"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage(%)",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",

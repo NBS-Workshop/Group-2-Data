@@ -1,1 +1,19 @@
-Year,Value
+Year,Serie,Sector,Zone,Unit,Value
+2016,Proportion of births attended by skilled health personnel,,,percentage(%),43.0
+2022,Proportion of births attended by skilled health personnel,,,percentage(%),50.7
+2016,Proportion of births attended by skilled health personnel,Urban,,percentage(%),67.1
+2016,Proportion of births attended by skilled health personnel,Rural,,percentage(%),32.9
+2022,Proportion of births attended by skilled health personnel,Urban,,percentage(%),77.3
+2022,Proportion of births attended by skilled health personnel,Rural,,percentage(%),35.5
+2016,Proportion of births attended by skilled health personnel,,North Central,percentage(%),50.3
+2016,Proportion of births attended by skilled health personnel,,North East,percentage(%),34.0
+2016,Proportion of births attended by skilled health personnel,,North West,percentage(%),23.6
+2016,Proportion of births attended by skilled health personnel,,South East,percentage(%),90.7
+2016,Proportion of births attended by skilled health personnel,,South South,percentage(%),64.0
+2016,Proportion of births attended by skilled health personnel,,South West,percentage(%),82.7
+2022,Proportion of births attended by skilled health personnel,,North Central,percentage(%),59.3
+2022,Proportion of births attended by skilled health personnel,,North East,percentage(%),35.4
+2022,Proportion of births attended by skilled health personnel,,North West,percentage(%),24.2
+2022,Proportion of births attended by skilled health personnel,,South East,percentage(%),92.8
+2022,Proportion of births attended by skilled health personnel,,South South,percentage(%),63.7
+2022,Proportion of births attended by skilled health personnel,,South West,percentage(%),79.7
