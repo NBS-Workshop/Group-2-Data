@@ -12,8 +12,36 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Climate finance provided and mobilised in 2013-2022 per component and sub-component (Amounts in USD billion)",
+                "Climate finance provided and mobilised in 2013-2023 per component and sub-component (Amounts in USD billion)",
+                "Climate finance provided and mobilised in 2013-2024 per component and sub-component (Amounts in USD billion)",
+                "Climate finance provided and mobilised in 2013-2025 per component and sub-component (Amounts in USD billion)",
+                "Climate finance provided and mobilised in 2013-2026 per component and sub-component (Amounts in USD billion)",
+                "Climate finance provided and mobilised in 2013-2027 per component and sub-component (Amounts in USD billion)",
+                "Climate finance provided and mobilised in 2013-2028 per component and sub-component (Amounts in USD billion)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage(%)",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",
